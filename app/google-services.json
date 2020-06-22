@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "107700166683",
+    "firebase_url": "https://test-wther.firebaseio.com",
+    "project_id": "test-wther",
+    "storage_bucket": "test-wther.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107700166683:android:0366cfd367a773d5e658be",
+        "android_client_info": {
+          "package_name": "com.testwther"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107700166683-v8fq98orn77knuniud93grr96o678pnn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBepOg90TJhaEqFBcceLmc5VynWr7d-KbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107700166683-v8fq98orn77knuniud93grr96o678pnn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

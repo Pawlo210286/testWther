@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:paddingBottom="16dp">
+
+    <ImageView
+        android:id="@+id/img_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/current_content_height"
+        app:layout_constraintEnd_toStartOf="@+id/tv_temperature"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_temperature"
+        style="@style/CurrentWeatherText"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/current_content_height"
+        android:gravity="center"
+        android:minHeight="?actionBarSize"
+        android:padding="@dimen/appbar_padding"
+        android:text="[+10 C]"
+        android:textAppearance="@style/CurrentWeatherTextAppearance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img_weather"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_weather_desc"
+        style="@style/CurrentWeatherText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/CurrentWeatherTextAppearance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_temperature"
+        tools:text="[ЯСНО]" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

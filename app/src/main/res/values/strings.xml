@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Test Wther</string>
+    <string name="tab_peter_text">Санкт-Петербург</string>
+    <string name="tab_moscow_text">Москва</string>
+    <string name="google_maps">AIzaSyD0kmgicE15ua1_cy-4WQ_NZadzGJHx9iw</string>
+    <string name="degrees_text">%d °C</string>
+</resources>
